@@ -25,44 +25,67 @@ Relevance: Reflects short-term economic health and business performance
   Fetched RSXFS from FRED
   
   Added external regressors like:
-    a)Consumer Confidence Index
-    b)Unemployment Rate
+    Consumer Confidence Index and 
+    Unemployment Rate
     
 2.Data Preprocessing
 
   Cleaned missing values and outliers
+  
   Resampled to monthly frequency (MS)
+  
   Created lag features and rolling statistics
+  
   Added holiday flags and event-based regressors
   
+  
 3.Exploratory Data Analysis (EDA)
+
   Decomposed trend, seasonality, and residuals
+  
   Visualized historical patterns and anomalies
+  
   Checked stationarity using ADF test
+  
   Analyzed ACF/PACF for SARIMA parameter selection
   
 4.Modeling
   Trained several forecasting models:
+  
   Naïve & Seasonal Naïve
+  
   Holt–Winters Triple Exponential Smoothing
+  
   SARIMA / ARIMA
+  
   Prophet (with regressors)
+  
   LSTM Neural Networks
+  
   Ensemble (SARIMA + Holt–Winters)
   
 5.Model Evaluation
   Evaluated using:
+  
   MAE (Mean Absolute Error)
+  
   RMSE (Root Mean Squared Error)
+  
   MAPE (Mean Absolute Percentage Error)
-  Ensemble Forecasting
+  
+  Ensemble Forecasting:
+  
   Combined forecasts using weighted averaging
+  
   Improved accuracy and stability over single models
   
 6.Streamlit Dashboard Development
   Built interactive plots of actual vs forecasted values
+  
   Included user inputs for forecast horizon
+  
   Enabled CSV download of forecasts
+  
   Visualized confidence bounds where applicable
   
 📊 Model Comparison

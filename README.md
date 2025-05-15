@@ -8,10 +8,15 @@ This project develops a robust forecasting model for the Advance Real Retail Sal
 🎯 Economic Indicator Chosen
 
 Indicator Name: Advance Real Retail Sales (RSXFS)
+
 Description: Monthly inflation-adjusted retail sales, providing early insight into consumer spending behavior.
+
 Source: FRED (Federal Reserve Economic Data)
+
 Frequency: Monthly
+
 Time Range: 2001–2024 (or your dataset's range)
+
 Relevance: Reflects short-term economic health and business performance
 
 🧹 Key Steps in the Pipeline
@@ -65,10 +70,13 @@ Relevance: Reflects short-term economic health and business performance
 
 MODEL
 MAPE (%)
+
 Holt–Winters (Multiplicative)
 3.85% ← best performer
+
 Ensemble (Weighted)
 4.26%
+
 SARIMA
 4.53%
 

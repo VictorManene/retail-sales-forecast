@@ -15,7 +15,7 @@ Source: FRED (Federal Reserve Economic Data)
 
 Frequency: Monthly
 
-Time Range: 2001–2024 (or your dataset's range)
+Time Range: 2000 - 2025
 
 Relevance: Reflects short-term economic health and business performance
 
